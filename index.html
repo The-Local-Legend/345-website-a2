@@ -3,35 +3,64 @@
     <head>
         <title>Carbon Tiptoe</title>
         <link rel="stylesheet" href="style.css">
-        <script src="scripts.js"></script>
+       
     </head>
     <body>
-        <header>
+        <header class="mainborder custom_border-color">
 
         </header>
-        <nav>
+        <nav class="mainborder custom_border-color navborderfix">
             <a>Home</a>
             <a>Calculator</a>
             <a>About Us</a>
             <a>Donate</a>
-            <button>Register</button>
+            <button id="bt1" onclick="formfunc()">Register</button>
         </nav>
-        <section>
-            <div class="fourdivs">
+        <div id="themodal" class="modal">
+            <div class="modal-content">
+                <span id="modalclose" class="close">&times;</span>
+                <form>
+                    <h3>User Details</h3>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="text" id="password" name="password"><br>
+                    <h3>Address</h3>
+                    <label for="homeaddy">Home address:</label><br>
+                    <input type="text" id="homeaddy" name="homeaddy"><br>
+                    <label for="workaddy">Work address:</label><br>
+                    <input type="text" id="workaddy" name="workaddy"><br>
+                    <h3>Contacts</h3>
+                    <label for="mobilenumber">Mobile Number:</label><br>
+                    <input type="text" id="mobilenumber" name="mobilenumber"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <button class="formbt">Submit</button>
+                </form>
+            </div>
+
+        </div>
+        <section class="mainborder custom_border-color">
+            <div class="fourdivs fourborder custom_border-color">
 
             </div>
-            <div class="fourdivs">
+            <div class="fourdivs fourborder custom_border-color">
 
             </div>
-            <div class="fourdivs right">
+            <div class="fourdivs right fourborder custom_border-color">
 
             </div>
-            <div class="fourdivs right">
+            <div class="fourdivs right fourborder custom_border-color">
 
             </div>
         </section>
-        <footer>
+        <footer class="mainborder custom_border-color footerborderfix">
 
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>

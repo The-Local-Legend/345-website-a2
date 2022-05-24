@@ -1,6 +1,13 @@
 .custom_background-color{
     background-color:#0E294B ;
 }
+.custom_border-color{
+    border-color:#0E294B ;
+}
+.custom-color{
+    color:#0E294B ;
+}
+
 body{
     width:100%;
     padding:0px;
@@ -20,6 +27,40 @@ nav button{
     float:right;
     padding:15px 50px;
     margin:10px 30px;
+}
+.formbt{
+    margin:10px;
+}
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    margin-left:32.5%;
+    margin-top:200px;
+    width:35%;
+    height:68%;
+    background-color:#0E294B;
+    opacity:0.95;
+}
+.modal-content{
+    background-color: #fefefe;
+    margin:30px;
+    padding:20px;
+    opacity:0.95;
+}
+.close{
+    color:black;
+    float:right;
+    font-size:40px;
+    font-weight:bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
 }
 nav a{
     float: left;
@@ -42,6 +83,10 @@ section{
     padding:40px;
     display:flex;
     flex-wrap:wrap;
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    
 }
 
 .fourdivs{
@@ -51,10 +96,27 @@ section{
     margin-left:75px;
     margin-top:35px;
     flex-direction: row;
+    opacity:0.95;
+    
     
 }
-
+.fourborder{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.mainborder{
+    border-width: 3px;
+    border-style: solid;
+}
+.navborderfix{
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+.footerborderfix{
+    border-top-width: 0px;
+}
 footer{
     background-color: grey;
-    height:125px;
+    height:100px;
 }
