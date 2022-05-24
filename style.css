@@ -2,48 +2,40 @@
     background-color:#0E294B ;
 }
 body{
+    width:100%;
+    padding:0px;
     margin:0px;
     overflow: hidden;
-    background-color: pink;
 }
 header{
-    height:130px;
-    width:100%;
-    background-color: yellow;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding:0px;
+    margin-top:0px;
+  height:150px;
+  background-color: #b5b9bd;
 }
 nav{
-    
-    width:100%;
-    background-color: orange;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    overflow:hidden;
+    background-color: #818385;
 }
 nav button{
-   position:relative;
-    padding: 20px;
-    top:0px;
-    right:0px;
-    
-    background-color: green;
+    float:right;
+    padding:15px 50px;
+    margin:10px 30px;
 }
 nav a{
-    padding:20px;
-    
-    font-size: 25px;
-    background-color: blueviolet;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
 }
 nav a:hover{
-    background-color: purple;
+    background-color: #0E294B;
 }
 section{
     height: 530px;
     width:100%;
-    background-color: green;
+    background-color: #b5b9bd;
     margin-top:0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -55,7 +47,7 @@ section{
 .fourdivs{
     height:200px;
     width:800px;
-    background-color: red;
+    background-color: #5c6b7a;
     margin-left:75px;
     margin-top:35px;
     flex-direction: row;
@@ -63,9 +55,6 @@ section{
 }
 
 footer{
-    height:120px;
-    width:100%;
-    background-color: blue;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-color: grey;
+    height:125px;
 }
